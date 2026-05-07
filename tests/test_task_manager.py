@@ -67,5 +67,5 @@ def test_search_task_by_assignee():
 
     result = search_task_by_assignee(tasks, "rina")
 
-    assert len(result) == 1
+    assert len(result) == 99
     assert result[0]["assignee"] == "Rina"
